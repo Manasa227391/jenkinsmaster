@@ -1,0 +1,11 @@
+pipeine {
+	agent any {
+		stages {
+			stage ('Build') {
+				steps {
+					echo "abcd"
+				}
+			}
+		}
+	}
+}
